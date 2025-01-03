@@ -54,9 +54,3 @@ El diseño gráfico de la aplicación es moderno y atractivo, con una interfaz i
 ---
 
 Disfruta explorando el mundo de Pokémon con esta aplicación interactiva y visualmente atractiva.
-
----
-
-### Nota sobre .env
-
-El archivo `.env` contiene datos de conexión a servidores de prueba. Normalmente, estos datos no estarían presentes en un repositorio abierto, pero para facilitar la prueba de la aplicación, se han utilizado servidores de prueba accesibles públicamente.
