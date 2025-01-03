@@ -1,0 +1,41 @@
+.content
+    position: relative
+    background-color: #ffe62c
+    color: blue
+
+    min-height: 100vh
+    overflow: auto
+
+.circle
+    width: 50px
+    height: 50px
+    background-color: red
+    position: fixed
+
+    &.bottom-left
+        border-top-right-radius: 50px
+        bottom: 0
+        left: 0
+
+    &.bottom-right
+        border-top-left-radius: 50px
+        bottom: 0
+        right: 0
+
+.triangle
+    width: 0
+    height: 0
+    position: fixed
+    border-style: solid
+
+    &.top-left
+        border-width: 50px 50px 0 0
+        border-color: black transparent transparent transparent
+        top: 0
+        left: 0
+
+    &.top-right
+        border-width: 50px 0 0 50px
+        border-color: black transparent transparent transparent
+        top: 0
+        right: 0

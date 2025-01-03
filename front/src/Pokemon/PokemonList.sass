@@ -1,0 +1,33 @@
+
+$color-borde: #ced4da
+$color-foco: #000000
+$color-texto: #000000
+$padding-input: 0.375rem 0.75rem
+$border-radius: 0.25rem
+$fuente-input: 2rem
+
+.pokemon-grid-container
+    display: grid
+    grid-template-columns: repeat(3, 1fr) // 3 columnas de igual ancho
+    grid-gap: 2em
+    padding: 1em
+    width: 60%
+    margin: 0 auto
+
+.filtro
+    border: 1px solid $color-borde
+    padding: $padding-input
+    border-radius: $border-radius
+    font-size: $fuente-input
+    color: $color-texto
+    outline: none
+    width: 60%
+    text-align: center
+    margin: 2em auto
+
+    &:focus
+        border-color: $color-foco
+        box-shadow: 0 0 0 0.2rem rgba($color-foco, 0.25)
+
+button
+    margin: 0 1em

@@ -1,0 +1,39 @@
+// Variables para colores, fuentes, etc.
+$color-primary: #007bff
+$color-secondary: #6c757d
+$font-stack: Arial, sans-serif
+
+// Estilos para el contenido principal
+.App
+    font-family: $font-stack
+    text-align: center
+
+// Estilos para la barra de navegación
+nav
+    background-color: $color-primary
+    padding: 1rem
+
+    ul
+        list-style: none
+        padding: 0
+        margin: 0
+        display: flex
+        justify-content: flex-start
+
+        li
+            margin-right: 1rem
+            a
+                color: white
+                text-decoration: none
+                &:hover
+                    color: $color-secondary
+
+/* Transición CSS */
+.fade-enter
+    opacity: 0
+    z-index: 1
+
+.fade-enter.fade-enter-active
+    opacity: 1
+    transition: opacity 250ms ease-in
+    z-index: 1
